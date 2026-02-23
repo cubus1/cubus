@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/banner.png" alt="cubus banner" width="600">
+</p>
+
 # cubus
 
 CogRecord architecture, cognitive pipeline, oracle, and ghost discovery.
