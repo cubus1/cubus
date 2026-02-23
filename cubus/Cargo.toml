@@ -1,0 +1,15 @@
+[package]
+name = "cubus"
+version = "0.1.0"
+edition = "2021"
+description = "CogRecord v3 architecture: phase-space holographic operations, carrier waveforms, focus gating, holograph"
+
+[features]
+default = []
+avx512 = ["numrus-core/avx512"]
+avx2 = ["numrus-core/avx2"]
+
+[dependencies]
+numrus-core = { git = "https://github.com/cubus1/numrus", branch = "main" }
+numrus-rs = { git = "https://github.com/cubus1/numrus", branch = "main" }
+numrus-clam = { git = "https://github.com/cubus1/numrus", branch = "main" }

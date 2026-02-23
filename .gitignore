@@ -1,0 +1,13 @@
+/target
+**dist
+**target
+**build
+**.pytest_cache
+**.pyc
+**rustynum.egg-info
+**__pycache__
+
+# Ignore compiled shared object files
+**/*.so
+site/
+**/.DS_Store

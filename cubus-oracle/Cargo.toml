@@ -1,0 +1,17 @@
+[package]
+name = "cubus-oracle"
+version = "0.1.0"
+edition = "2021"
+description = "Three-temperature holographic oracle with capacity sweep for optimal parameter discovery"
+
+[features]
+default = ["avx512"]
+avx512 = ["numrus-core/avx512"]
+avx2 = ["numrus-core/avx2"]
+
+[dependencies]
+numrus-core = { git = "https://github.com/cubus1/numrus", branch = "main", default-features = false }
+numrus-nars = { git = "https://github.com/cubus1/numrus", branch = "main" }
+numrus-substrate = { git = "https://github.com/cubus1/numrus", branch = "main" }
+rand = "0.8"
+serde_json = "1"
